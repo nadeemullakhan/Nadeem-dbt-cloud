@@ -1,0 +1,14 @@
+sources:
+  - name: landing
+    database: NADEEM_DB
+    schema: L1_LANDING
+
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders
+      - name: orderitems
+        identifier: orderitems
+      - name: employees
+        identifier: employees
